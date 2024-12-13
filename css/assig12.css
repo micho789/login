@@ -1,0 +1,57 @@
+:root{
+    --primary-color:#17A2B8;
+    --main-color:#24353F;
+}
+body{
+    background-color: var(--main-color);
+    font-family: sans-serif;
+}
+h1{
+    color:var(--primary-color);
+}
+.group{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+
+input{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+input::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+.a-click{
+    text-decoration: none;
+    color: white;
+}
+.a-click:hover{
+    text-decoration: underline;
+}
+.btn-outline-info:hover {
+    color: #fff;
+} 
+
+
+
+/* login page */
+.logo{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.btn-outline-warning{
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn-outline-warning:hover {
+    color: #fff;
+}
+.navbar{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+.login-group{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
